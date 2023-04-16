@@ -1,0 +1,61 @@
+/* Footer section */
+
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 410px;
+    margin-top:-4px;
+}
+
+.footer > .logo__footer > img {
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.footer > .footer__phone__hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer__phone__hours  .hours {
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.footer > .links-wrapper {
+    margin: 40px 0 40px 0;
+    width: 400px;
+}
+
+.footer > .social__icons {
+    margin: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.footer > .social__icons a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer > .social__icons a:hover {
+    color: #cea135;
+}
+
+.footer > .copyright__wrapper {
+    font-size: 0.7em;
+    margin-bottom: 42px;
+    color: #858585;
+}
+
+/* End footer section styles */

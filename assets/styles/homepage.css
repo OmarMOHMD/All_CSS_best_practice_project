@@ -1,7 +1,7 @@
 /* Hero section */
 
 .hero-section {
-    background-image: url(/assets/images/bg/fries-hero-bg.jpg);
+    background-image: url(../images/bg/fries-hero-bg.jpg);
     height: 300px;
     padding: 100px;
     /* background parameters */
